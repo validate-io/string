@@ -19,15 +19,17 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 To use the module,
 
 ``` javascript
-var lib = require( 'validate.io-string' );
+var isString = require( 'validate.io-string' );
+
+console.log( isString( 'beep' ) );
+// Returns true
+
+console.log( isString( 5 ) );
+// Returns false
 ```
 
 
 ## Examples
-
-``` javascript
-var lib = require( 'validate.io-string' );
-```
 
 To run the example code from the top-level application directory,
 
