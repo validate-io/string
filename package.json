@@ -28,7 +28,11 @@
     "validation",
     "validator",
     "valid",
-    "string"
+    "string",
+    "is",
+    "type",
+    "check",
+    "isstring"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/string/issues"
